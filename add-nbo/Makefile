@@ -1,7 +1,7 @@
 all: add-nbo
 
-add_nbo: add-nbo.o
-	gcc -o add_nbo add-nbo.o
+add-nbo: add-nbo.o
+	gcc -o add-nbo add-nbo.o
 
 add-nbo.o: add-nbo.c add-nbo.h
 	gcc -c -o add-nbo.o add-nbo.c
